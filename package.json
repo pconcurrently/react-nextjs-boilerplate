@@ -1,6 +1,6 @@
 {
   "name": "react-nextjs-boilerplate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A boilerplate for React and Nextjs",
   "main": "index.js",
   "author": "Pho Huynh p@concurrently.dev",

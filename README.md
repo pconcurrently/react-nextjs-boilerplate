@@ -3,7 +3,6 @@
 [![Build Status](https://travis-ci.org/shortgiraffe4/react-nextjs-boilerplate.svg?branch=master)](https://travis-ci.org/shortgiraffe4/react-nextjs-boilerplate)
 [![Dependency Status](https://david-dm.org/shortgiraffe4/react-nextjs-boilerplate.svg)](https://david-dm.org/shortgiraffe4/react-nextjs-boilerplate)
 [![devDependency Status](https://david-dm.org/shortgiraffe4/react-nextjs-boilerplate/dev-status.svg)](https://david-dm.org/shortgiraffe4/react-nextjs-boilerplate#info=devDependencies)
-[![Code Climate](https://codeclimate.com/github/shortgiraffe4/react-nextjs-boilerplate.svg)](https://codeclimate.com/github/shortgiraffe4/react-nextjs-boilerplate)
 
 React Nextjs boilerplate.
 
