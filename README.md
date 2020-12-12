@@ -50,7 +50,7 @@ Directory layout
 
 ##### 1. Clone the repo
 
-`git clone git@github.com:shortgiraffe4/eact-nextjs-boilerplate.git --depth 1`
+`git clone git@github.com:shortgiraffe4/react-nextjs-boilerplate.git --depth 1`
 
 ##### 2. Install dependencies
 
