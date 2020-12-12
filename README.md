@@ -1,4 +1,4 @@
-# React starter with Typescript
+# Boilerplate for React, Nextjs
 
 [![Build Status](https://travis-ci.org/shortgiraffe4/react-nextjs-boilerplate.svg?branch=master)](https://travis-ci.org/shortgiraffe4/react-nextjs-boilerplate)
 [![Dependency Status](https://david-dm.org/shortgiraffe4/react-nextjs-boilerplate.svg)](https://david-dm.org/shortgiraffe4/react-nextjs-boilerplate)
