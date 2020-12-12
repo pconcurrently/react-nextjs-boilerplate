@@ -1,0 +1,153 @@
+$fOpenSans: 'OpenSans';
+$fRoboto: 'Roboto';
+
+@font-face {
+  font-display: swap;
+  font-family: $fOpenSans;
+  font-style: normal;
+  font-weight: $fw-light;
+  src: url('../public/fonts/OpenSans-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: $fOpenSans;
+  font-style: italic;
+  font-weight: $fw-light;
+  src: url('../public/fonts/OpenSans-LightItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: $fOpenSans;
+  font-style: normal;
+  font-weight: $fw-regular;
+  src: url('../public/fonts/OpenSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: $fOpenSans;
+  font-style: italic;
+  font-weight: $fw-regular;
+  src: url('../public/fonts/OpenSans-Italic.ttf') format('truetype');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: $fOpenSans;
+  font-style: normal;
+  font-weight: $fw-semibold;
+  src: url('../public/fonts/OpenSans-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: $fOpenSans;
+  font-style: italic;
+  font-weight: $fw-semibold;
+  src: url('../public/fonts/OpenSans-SemiBoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: $fOpenSans;
+  font-style: normal;
+  font-weight: $fw-bold;
+  src: url('../public/fonts/OpenSans-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: $fOpenSans;
+  font-style: italic;
+  font-weight: $fw-bold;
+  src: url('../public/fonts/OpenSans-BoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: $fOpenSans;
+  font-style: normal;
+  font-weight: $fw-extrabold;
+  src: url('../public/fonts/OpenSans-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: $fOpenSans;
+  font-style: italic;
+  font-weight: $fw-extrabold;
+  src: url('../public/fonts/OpenSans-ExtraBoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: $fRoboto;
+  font-style: normal;
+  font-weight: $fw-light;
+  src: url('../public/fonts/Roboto-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: $fRoboto;
+  font-style: italic;
+  font-weight: $fw-light;
+  src: url('../public/fonts/Roboto-LightItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: $fRoboto;
+  font-style: normal;
+  font-weight: $fw-regular;
+  src: url('../public/fonts/Roboto-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: $fRoboto;
+  font-style: italic;
+  font-weight: $fw-regular;
+  src: url('../public/fonts/Roboto-Italic.ttf') format('truetype');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: $fRoboto;
+  font-style: normal;
+  font-weight: $fw-bold;
+  src: url('../public/fonts/Roboto-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: $fRoboto;
+  font-style: italic;
+  font-weight: $fw-bold;
+  src: url('../public/fonts/Roboto-BoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: $fRoboto;
+  font-style: normal;
+  font-weight: $fw-black;
+  src: url('../public/fonts/Roboto-Black.ttf') format('truetype');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: $fRoboto;
+  font-style: italic;
+  font-weight: $fw-black;
+  src: url('../public/fonts/Roboto-BlackItalic.ttf') format('truetype');
+}
+
+html {
+  min-width: 375px;
+  font-family: $fRoboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  font-weight: $fw-regular;
+}

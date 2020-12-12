@@ -1,5 +1,3 @@
 {
-  "homePage.cardHealthTools.title": "Are you experiencing symptoms but you’re not sure what they mean?",
-  "homePage.cardHealthTools.description": "Get personalized health expert recommendations based on your symptoms.",
-  "homePage.cardHealthTools.buttonText": "Get Started"
+  "welcomeText": "Welcome to react-nextjs-boilerplate. This is translated via react-intl. Try localhost:3000/vi for different translation."
 }

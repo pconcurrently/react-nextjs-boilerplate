@@ -1,5 +1,3 @@
 {
-  "homePage.cardHealthTools.title": "Are you experiencing symptoms but you’re not sure what they mean?",
-  "homePage.cardHealthTools.description": "Get personalized health expert recommendations based on your symptoms.",
-  "homePage.cardHealthTools.buttonText": "Get Started"
+  "welcomeText": "Chào mừng đến react-nextjs-boilerplate. Dòng này được dịch bởi react-intl. Hãy thử với localhost:3000/en hoặc localhost:3000 để xem bản dịch khác."
 }

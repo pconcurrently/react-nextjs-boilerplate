@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A boilerplate for React and Nextjs",
   "main": "index.js",
-  "author": "p@concurrently.dev",
+  "author": "Pho Huynh p@concurrently.dev",
   "scripts": {
     "dev": "next",
     "build": "next build",
@@ -32,12 +32,8 @@
     "react-id-generator": "^3.0.1",
     "react-intl": "^5.10.2",
     "react-loading-skeleton": "^2.1.1",
-    "react-otp-input": "^2.3.0",
-    "react-phone-input-2": "^2.13.9",
-    "react-range": "^1.8.3",
     "sass": "^1.28.0",
-    "string-format": "^2.0.0",
-    "validator": "^13.1.17"
+    "string-format": "^2.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.3",
@@ -70,9 +66,7 @@
     "stylelint-config-prettier": "^8.0.2",
     "stylelint-order": "^4.1.0",
     "stylelint-prettier": "^1.1.2",
-    "svg-url-loader": "^6.0.0",
-    "typescript": "4.0",
-    "webpack-import-glob-loader": "^1.6.3"
+    "typescript": "4.0"
   },
   "license": "MIT"
 }

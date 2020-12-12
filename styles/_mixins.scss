@@ -1,0 +1,66 @@
+$width-window-breakpoint: 768px;
+
+@mixin mq($conf: ()) {
+  @if (map-get($conf, minW) and map-get($conf, maxH)) {
+    @media #{if(map-get($conf, print), 'print, ', '')}screen and (min-width: map-get($conf, minW)) and (max-height: map-get($conf, maxH) - 1px) {
+      @content;
+    }
+  } @else if (map-get($conf, minH) and map-get($conf, maxW)) {
+    @media #{if(map-get($conf, print), 'print, ', '')}screen and (min-height: map-get($conf, minH)) and (max-width: map-get($conf, maxW) - 1px) {
+      @content;
+    }
+  } @else if (map-get($conf, minW) and map-get($conf, maxW)) {
+    @media #{if(map-get($conf, print), 'print, ', '')}screen and (min-width: map-get($conf, minW)) and (max-width: map-get($conf, maxW) - 1px) {
+      @content;
+    }
+  } @else if (map-get($conf, minW)) {
+    @media #{if(map-get($conf, print), 'print, ', '')}screen and (min-width: map-get($conf, minW)) {
+      @content;
+    }
+  } @else if (map-get($conf, maxW)) {
+    @media #{if(map-get($conf, print), 'print, ', '')}screen and (max-width: map-get($conf, maxW) - 1px) {
+      @content;
+    }
+  } @else if (map-get($conf, minH) and map-get($conf, maxH)) {
+    @media #{if(map-get($conf, print), 'print, ', '')}screen and (min-height: map-get($conf, minH)) and (max-height: map-get($conf, maxH) - 1px) {
+      @content;
+    }
+  } @else if (map-get($conf, minH)) {
+    @media #{if(map-get($conf, print), 'print, ', '')}screen and (min-height: map-get($conf, minH)) {
+      @content;
+    }
+  } @else if (map-get($conf, maxH)) {
+    @media #{if(map-get($conf, print), 'print, ', '')}screen and (max-height: map-get($conf, maxH) - 1px) {
+      @content;
+    }
+  }
+}
+
+@mixin layout-pc {
+  @include mq(
+    (
+      minW: $width-window-breakpoint,
+      print: true,
+    )
+  ) {
+    @content;
+  }
+}
+@mixin layout-sp {
+  @include mq(
+    (
+      maxW: $width-window-breakpoint,
+    )
+  ) {
+    @content;
+  }
+}
+
+@mixin aspectRatio($width: 1, $height: 1) {
+  position: relative;
+  &:before {
+    display: block;
+    padding-bottom: ($height / $width) * 100%;
+    content: '';
+  }
+}
