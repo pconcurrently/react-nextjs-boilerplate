@@ -20,10 +20,6 @@ React Nextjs boilerplate.
 - [Prettier](https://prettier.io/)
 - [Husky](https://github.com/typicode/husky)
 
-### Demo
-
-https://react-typescript-starter.herokuapp.com/
-
 ## Getting started
 
 Directory layout
