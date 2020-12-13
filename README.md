@@ -4,7 +4,7 @@
 [![Dependency Status](https://david-dm.org/shortgiraffe4/react-nextjs-boilerplate.svg)](https://david-dm.org/shortgiraffe4/react-nextjs-boilerplate)
 [![devDependency Status](https://david-dm.org/shortgiraffe4/react-nextjs-boilerplate/dev-status.svg)](https://david-dm.org/shortgiraffe4/react-nextjs-boilerplate#info=devDependencies)
 
-React Nextjs boilerplate.
+This boilerplate is all you need for frontend project development with Reactjs and Nextjs.
 
 ### Stack
 
