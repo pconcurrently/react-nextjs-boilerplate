@@ -2,10 +2,8 @@
 import React from 'react'
 
 import { useRouter } from 'next/router'
-// eslint-disable-next-line import/order
 import { IntlProvider } from 'react-intl'
-import '../styles/app.scss'
-
+import GlobalStyle from 'styles/globalStyle'
 import en from 'translations/en.json'
 import vi from 'translations/vi.json'
 
@@ -23,6 +21,7 @@ export default function HHGCare({ Component, pageProps }) {
       messages={messages[locale]}
       defaultLocale="en"
     >
+      <GlobalStyle />
       <Component {...pageProps} />
     </IntlProvider>
   )
