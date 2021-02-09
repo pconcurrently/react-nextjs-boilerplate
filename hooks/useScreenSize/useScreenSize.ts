@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 
 const getIsMobile = () => {
-  return typeof window !== 'undefined' && window.innerWidth <= 768
+  return typeof window !== 'undefined' && window.innerWidth < 768
 }
 
 const useScreenSize = () => {

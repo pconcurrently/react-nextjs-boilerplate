@@ -1,7 +1,8 @@
 module.exports = {
   i18n: {
-    locales: ['en', 'vi'],
-    defaultLocale: 'en',
+    locales: ['en-US', 'vi-VN'],
+    defaultLocale: 'en-US',
+    localeDetection: false,
   },
   webpack(config) {
     config.module.rules.push({
